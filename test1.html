@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<body>
+
+<p>点击这个按钮，来调用带参数的函数。</p>
+<p id="l"></p>
+<p id="m"></p>
+<button onclick="myFunction1('Bill Gates','CEO')">点击这里</button>
+<button onclick="myFunction2()">点击这里</button>
+
+
+<script>
+function myFunction1(name,job)
+{
+alert("Welcome " + name  +","+ " the "+ job);
+}
+
+function myFunction2()
+{
+document.getElementById("l").innerHTML="Hello World";
+document.getElementById("m").innerHTML="How are you?";
+
+
+}
+
+
+
+
+</script>
+
+</body>
+</html>
